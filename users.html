@@ -62,7 +62,7 @@
 
 
         <!-- ---------content  start------------- -->
-        <section id="top-action-section" class="row m-t-10">
+        <section id="top-action-section" class="row m-t-10 container">
             <!-- add button -->
             <div class="p-l-10 p-r-10 m-t-20 col s12 m4 l3">
                 <button class="waves-effect waves-green btn darken-2 p-l-30 p-r-30 w-full round-pill flex-c">
@@ -90,28 +90,77 @@
         </section>
         
         <!-- ---------list  start------------- -->
-        <section>
+        <section class="hide-on-med-and-up ">
           <ul class="collapsible">
-            <li>
+            <li class="users_list_item">
               <div class="collapsible-header f-bold">
-                <i class="material-icons blue-text darken-2">arrow_drop_down_circle</i>
+                <i class="material-icons blue-text darken-2 users_list_arrow_icon trans-0-2">arrow_downward</i>
                 sajad
               </div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              <div class="collapsible-body"><span><i class="material-icons">account_box</i> username:</span>
+              <span>sajad</span>
+            </div>
+            <div class="collapsible-body"><span><i class="material-icons">email</i> email:</span>
+              <span>sajadmail3@gmail.com</span>
+            </div>
+            <div class="collapsible-body "><span><i class="material-icons">add_location</i> adress:</span>
+              <span>arak bolvar qods</span>
+            </div>
             </li>
-            <li>
-              <div class="collapsible-header f-bold"><i class="material-icons blue-text darken-2">place</i>Second</div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
-            <li>
-              <div class="collapsible-header f-bold"><i class="material-icons blue-text darken-2">assignment_late</i>
-                Third
-              </div>
-              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
+            
           </ul>
    
         </section>
+        <div class="hide-on-med-and-down show-on-medium-and-up container">
+          <table class="striped centered highlight">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>username</th>
+                <th>email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>sajad</td>
+                <td>wizorant</td>
+                <td>sajadmail3</td>
+              </tr>
+              <tr>
+                <td>sajad</td>
+                <td>wizorant</td>
+                <td>sajadmail3</td>
+              </tr>
+              <tr>
+                <td>sajad</td>
+                <td>wizorant</td>
+                <td>sajadmail3</td>
+              </tr>
+              <tr>
+                <td>sajad</td>
+                <td>wizorant</td>
+                <td>sajadmail3</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <!-- ---------------------- start page counter -->
+        <div class="rounded_top_30 container p-r-9 p-l-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 filter_shadow z-depth-4 ">
+          <div class="flex-l p-l-10 flex-l-m">
+            showing
+            <span class="m-l-5 m-r-5 max-w-50">
+              <input type="number" class="blue-text darken-2 no-border center-align m-b-0" value="10">
+            </span>
+            of 
+            <span class="blue-text darken-2 m-r-5 m-l-5">100</span>
+          </div>
+          <div class="pagination_buttons ">
+            <i class="material-icons blue darken-2 round-pill waves-effect waves-light white-text text">chevron_left</i>
+            <i class="material-icons blue darken-2 round-pill waves-effect waves-light white-text text">chevron_right</i>
+
+          </div>
+        </div>
       
 
 

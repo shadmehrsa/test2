@@ -6,7 +6,23 @@
         box-shadow: 0 0 50px gray;
     }
     #top-action-section{
-        display: flex; !important
-        align-items: center; !important
+        display: flex !important; 
+        align-items: center !important; 
     }
+
 }
+
+
+.users_list_item.active .users_list_arrow_icon {
+transform: rotate(180deg);
+
+}
+
+  
+table.highlight > tbody > tr:hover {
+    background-color: #1976d272 ;
+  }
+
+  .container{
+    width: 100% !important;
+  }
